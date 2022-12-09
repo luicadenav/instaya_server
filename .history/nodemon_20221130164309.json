@@ -1,0 +1,16 @@
+{
+	"env": {
+		
+		"PORT": "2999",
+		"LOG_ACCESS": "dev.log",
+		
+		"DB_CONNECTION_STRING": "<mongodb+srv://InstaYa:InstaYa@cluster0.q2sddxt.mongodb.net/?retryWrites=true&w=majority>",
+
+		// valor de la propiedad "kid" de nuestro par de llaves de acceso
+		"ACCESS_TOKEN_SECRET": "<kid_header_value>",
+		
+		"REFRESH_TOKEN_SECRET": "9a9630f1-356c-4be0-9d0d-468f080ce3d8",
+		
+		"ALLOWED_HOST": "http://localhost:3000"
+	}
+}

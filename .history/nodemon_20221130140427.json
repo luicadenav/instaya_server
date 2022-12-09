@@ -1,0 +1,15 @@
+{
+	"env": {
+		
+		"PORT": "2999",
+		"LOG_ACCESS": "dev.log",
+		
+		"DB_CONNECTION_STRING": "<mongodb+srv://InstaYa:InstaYa@cluster0.q2sddxt.mongodb.net/?retryWrites=true&w=majority>",
+		// valor de la propiedad "kid" de nuestro par de llaves de acceso
+		"ACCESS_TOKEN_SECRET": "<kid_header_value>",
+		// valor de la propiedad "kid" de nuestro par de llaves de refresco
+		"REFRESH_TOKEN_SECRET": "<kid_header_value>",
+		// host de nuestro cliente, como este sera un entorno local, debemos permitir conexiones que provengan desde nuestro cliente local
+		"ALLOWED_HOST": "http://localhost:3000"
+	}
+}
